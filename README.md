@@ -4,7 +4,7 @@ This repository contains the Social Proof Section project, built as part of a fr
 
 ### Demo:
 
-soon
+https://hadihab.github.io/course-social-proof-section/
 
 ## Features
 
