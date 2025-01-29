@@ -109,3 +109,41 @@ body {
 .card:nth-child(3) {
     margin-top: 4rem;
 }
+@media (max-width: 1024px) {
+    .top-section {
+        gap: 6rem;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 3rem 1rem;
+    }
+    .top-section {
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .top-section .right .item:nth-child(1) {
+        margin-left: initial;
+    }
+    .top-section .right .item:nth-child(2) {
+        margin-left: initial;
+    }
+    .top-section .right .item {
+        flex-direction: column;
+    }
+    .bottom-section .grid {
+        grid-template-columns: 1fr;
+    }
+    .card:nth-child(2) {
+        margin-top: initial;
+    }
+    .card:nth-child(3) {
+        margin-top: initial;
+    }
+}
+@media (max-width: 540px) {
+    .top-section .left h1 {
+        font-size: 3rem;
+    }
+}
